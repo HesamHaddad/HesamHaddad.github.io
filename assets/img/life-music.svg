@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Placeholder: Music: voice & piano">
+<defs><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#c9c3b6" stroke-width="1"/></pattern></defs>
+<rect width="100%" height="100%" fill="#e9e5dc"/><rect width="100%" height="100%" fill="url(#g)"/>
+<line x1="0" y1="0" x2="800" y2="600" stroke="#c9c3b6" stroke-width="2"/><line x1="800" y1="0" x2="0" y2="600" stroke="#c9c3b6" stroke-width="2"/>
+<rect x="230.0" y="266.0" width="340" height="68" rx="6" fill="#f6f4ef" stroke="#8a8478"/>
+<text x="50%" y="296.0" text-anchor="middle" font-family="monospace" font-size="20" fill="#3b3a36">Music: voice & piano</text>
+<text x="50%" y="322.0" text-anchor="middle" font-family="monospace" font-size="15" fill="#8a8478">placeholder · 800×600</text></svg>

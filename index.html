@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hesam Haddad · Robot Learning &amp; Physical AI</title>
+  <meta name="description" content="Hesam Haddad: M.Sc. researcher at GIST (HUR Group, advisor Prof. Pilwon Hur) working on vision–language–action models that speak and act on edge hardware.">
+  <meta name="author" content="Hesam Haddad">
+  <meta property="og:title" content="Hesam Haddad · Robot Learning &amp; Physical AI">
+  <meta property="og:description" content="M.Sc. researcher at GIST building language-driven robotic systems that run entirely on local hardware.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://doubleh7.github.io/">
+  <meta property="og:image" content="https://doubleh7.github.io/assets/img/portrait.svg">
+  <meta name="theme-color" content="#e4572e">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Serif:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar" id="top">
+  <div class="topbar__inner">
+    <div class="brand">
+      <a class="monogram" href="#home" aria-label="Home">HH</a>
+      <nav class="quicklinks" aria-label="Profiles and contact">
+        <a href="mailto:hesamhaddad@gm.gist.ac.kr" title="Email me" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m3.5 6 8.5 7 8.5-7" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+        </a>
+        <a href="files/Hesam_Haddad_CV.pdf" title="Download my CV" aria-label="Download CV" download>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.5h8l4.5 4.5v14.5H6z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M14 2.5V7h4.5" fill="none" stroke="currentColor" stroke-width="1.8"/><text x="12.2" y="17.5" text-anchor="middle" font-size="6.5" font-weight="700" font-family="IBM Plex Sans, sans-serif" fill="currentColor">CV</text></svg>
+        </a>
+        <a href="https://github.com/DoubleH7" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/hesam-haddad/" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11H3zM9.5 9.75h3.83v1.5h.06c.53-1 1.84-2.06 3.79-2.06 4.05 0 4.8 2.67 4.8 6.13v6.43h-4v-5.7c0-1.36-.03-3.11-1.9-3.11-1.9 0-2.18 1.48-2.18 3.01v5.8h-4z"/></svg>
+        </a>
+        <a href="https://scholar.google.com/citations?hl=en&amp;user=PdJIyL0AAAAJ" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3 1.5 10.5H6a6 6 0 0 0 12 0h4.5z" opacity=".35"/><path fill="currentColor" d="M12 3 1.5 10.5h21z"/><circle cx="12" cy="15" r="5.2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+        </a>
+        <a href="https://orcid.org/0009-0006-5468-6484" title="ORCID" aria-label="ORCID" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-width="1.8"/><text x="12" y="16" text-anchor="middle" font-size="10" font-weight="700" font-family="IBM Plex Sans, sans-serif" fill="currentColor">iD</text></svg>
+        </a>
+      </nav>
+    </div>
+
+    <button class="menu-btn" aria-expanded="false" aria-controls="sitenav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="sitenav" id="sitenav" aria-label="Sections">
+      <a href="#home">Overview</a>
+      <a href="#research">Research</a>
+      <a href="#papers">Papers</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="sitenav__cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ OVERVIEW ============ -->
+  <section class="hero" id="home">
+    <div class="wrap hero__grid">
+      <div class="hero__text">
+        <p class="eyebrow">M.Sc. researcher · GIST, South Korea</p>
+        <h1>Hello, I'm <span class="accent">Hesam&nbsp;Haddad</span>.</h1>
+        <p class="lede">I build language-driven robotic systems that run entirely on local hardware. My M.Sc. thesis extends this toward vision–language–action models that produce both verbal and physical outputs on edge-deployed robots.</p>
+        <p>I work in the HUR Group (BioMechatronics Lab) at the Gwangju Institute of Science and Technology with Prof. Pilwon Hur. I bring a control-engineering background, first-author papers at IEEE ICRoM 2023 and ICROS 2026, and industry experience deploying large language models in production.</p>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="files/Hesam_Haddad_CV.pdf" download>Download CV</a>
+          <a class="btn" href="mailto:hesamhaddad@gm.gist.ac.kr">hesamhaddad@gm.gist.ac.kr</a>
+        </div>
+        <dl class="facts">
+          <div><dt>Now</dt><dd>M.Sc., Mechanical &amp; Robotics Eng., GIST</dd></div>
+          <div><dt>Advisor</dt><dd>Prof. Pilwon Hur</dd></div>
+          <div><dt>Seeking</dt><dd>PhD positions from Fall 2027</dd></div>
+        </dl>
+      </div>
+      <figure class="hero__photo">
+        <img src="assets/img/portrait.svg" alt="Portrait of Hesam Haddad (placeholder)" width="600" height="600">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ CURRENT RESEARCH ============ -->
+  <section class="section" id="research">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="kicker">01</p>
+        <h2>Current Research</h2>
+        <p class="section__intro">Three threads I am working on right now: my thesis, my lab project and my own research direction.</p>
+      </header>
+
+      <article class="feature">
+        <img class="feature__img" src="assets/img/research-vla.svg" alt="VLA distillation pipeline (placeholder)" width="800" height="500" loading="lazy">
+        <div class="feature__body">
+          <p class="tag tag--live">M.Sc. thesis · in progress</p>
+          <h3>VLA-Distillation: robots that keep their words at edge scale</h3>
+          <p>My thesis argues that a compact vision–language–action model can speak and act coherently at edge scale when it is distilled from a large language-native planner. The argument is about where the representation boundary sits, not about scale.</p>
+          <ol class="pipeline">
+            <li><span>Teacher</span>A fine-tuned mid-sized VLM outputs actions as JSON, keeping it close to human-readable language so it preserves its language ability while giving accurate actions.</li>
+            <li><span>Encode</span>The JSON action blocks are encoded into compact action tokens.</li>
+            <li><span>Student</span>A custom edge-scale architecture is distilled from the teacher, so one model can both speak and act on local hardware.</li>
+          </ol>
+        </div>
+      </article>
+
+      <div class="cards cards--2">
+        <article class="card">
+          <img src="assets/img/research-rehab.svg" alt="Upper-limb rehabilitation chatbot (placeholder)" width="800" height="500" loading="lazy">
+          <div class="card__body">
+            <p class="tag tag--live">Lab project · HUR Group</p>
+            <h3>Upper-Limb Rehabilitation Chatbot</h3>
+            <p>I manage the edge deployment of an LLM-centred system for patient interface control, inquiry, monitoring and grounded medical consultation on an upper-limb rehabilitation robot. I designed and built its fully local retrieval-augmented generation assistant: a versioned ingestion pipeline, hybrid dense and full-text retrieval fused with Reciprocal Rank Fusion, and streaming generation from MedGemma 1.5 4B, chosen after comparing six open-weight generators for its small footprint and medical-domain pretraining. I am now integrating an audio interface and own the MLOps and service integration across the system.</p>
+            <p class="stack">Qdrant · MongoDB · Ollama · FastAPI · MedGemma</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/img/research-evoagi.svg" alt="EvoAGI simulated world (placeholder)" width="800" height="500" loading="lazy">
+          <div class="card__body">
+            <p class="tag tag--idea">Personal research</p>
+            <h3>EvoAGI</h3>
+            <p>A Rust-based, signal-rich environment paired with an evolutionary search for the emergence of intelligence. The question behind it: can general intelligence emerge from evolutionary survival pressure, rather than being designed or trained?</p>
+            <p class="stack">Rust · evolutionary search · artificial life</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PAPERS & ACADEMIC RECORD ============ -->
+  <section class="section section--tint" id="papers">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="kicker">02</p>
+        <h2>Papers &amp; Academic Record</h2>
+      </header>
+
+      <h3 class="subhead">Publications</h3>
+      <div class="papers">
+        <article class="paper">
+          <img src="assets/img/paper-icros.svg" alt="ICROS 2026 system figure (placeholder)" width="800" height="500" loading="lazy">
+          <div>
+            <p class="tag">Peer-reviewed · July 2026</p>
+            <h4>A Privacy-Preserving Local RAG System for Rehabilitation Knowledge Assistance</h4>
+            <p class="authors"><strong>H. Haddad</strong>, P. Hur</p>
+            <p class="venue">ICROS 2026 (Institute of Control, Robotics and Systems Annual Conference)</p>
+            <p>A fully local retrieval-augmented assistant for rehabilitation therapists and patients, built for patient privacy and closed hospital networks. Documents pass through a four-stage versioned pipeline; dense and full-text retrieval are fused with RRF and grounded in a locally deployed open-weight LLM.</p>
+          </div>
+        </article>
+        <article class="paper">
+          <img src="assets/img/paper-icrom.svg" alt="ICRoM 2023 figure (placeholder)" width="800" height="500" loading="lazy">
+          <div>
+            <p class="tag">IEEE · December 2023</p>
+            <h4>Knee &amp; Femur Joint Angle Estimation Based on Mechanical &amp; Electromyographic Measurements for Active Control of Transfemoral Prostheses</h4>
+            <p class="authors"><strong>H. Haddadadel</strong>, A. Yousefi-Koma, M. Asgharzadeh</p>
+            <p class="venue">2023 11th RSI International Conference on Robotics and Mechatronics (ICRoM)</p>
+            <p class="links"><a href="https://doi.org/10.1109/ICRoM60803.2023.10412367" target="_blank" rel="noopener">DOI ↗</a> <a href="https://ieeexplore.ieee.org/document/10412367" target="_blank" rel="noopener">IEEE Xplore ↗</a></p>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="subhead">Education</h3>
+      <ol class="timeline">
+        <li>
+          <p class="when">09/2025 – present</p>
+          <h4>M.Sc., Mechanical and Robotics Engineering</h4>
+          <p class="where">Gwangju Institute of Science and Technology (GIST), South Korea · HUR Group, advisor Prof. Pilwon Hur</p>
+          <p>Thesis (in progress): vision–language–action models with joint verbal and action outputs for edge-deployed robotic systems.</p>
+        </li>
+        <li>
+          <p class="when">2018 – 2023</p>
+          <h4>B.Sc., Mechanical Engineering · Control Engineering</h4>
+          <p class="where">University of Tehran, Iran</p>
+          <p>Thesis (92.5/100): knee and femur joint angle estimation from mechanical and EMG signals for active transfemoral prostheses.</p>
+        </li>
+      </ol>
+
+      <h3 class="subhead">Research &amp; Work Experience</h3>
+      <ol class="timeline">
+        <li>
+          <p class="when">09/2025 – present</p>
+          <h4>Graduate Researcher, HUR Group (BioMechatronics Lab), GIST</h4>
+          <p>Language interfaces for upper-limb rehabilitation robots; lab infrastructure and local LLM services.</p>
+        </li>
+        <li>
+          <p class="when">02/2024 – 05/2025</p>
+          <h4>Software Developer, RavanErtebat Co.</h4>
+          <p>Deployed and maintained transformer-based and large language models in production back-end services; Kubernetes administration and infrastructure design.</p>
+        </li>
+        <li>
+          <p class="when">07/2023 – 11/2023</p>
+          <h4>Researcher, University of Tehran × Taleghani Hospital</h4>
+          <p>Ensemble model for grading fatty liver disease. Supervisor: Dr. Mohammad Khoshnevisan.</p>
+        </li>
+        <li>
+          <p class="when">05/2023 – 09/2023</p>
+          <h4>Researcher, Center of Advanced Systems and Technologies (CAST), University of Tehran</h4>
+          <p>Joint angle estimation for active transfemoral prostheses. Supervisor: Prof. Aghil Yousefi-Koma.</p>
+        </li>
+        <li>
+          <p class="when">09/2022 – 07/2023</p>
+          <h4>Teaching Assistant, Artificial Intelligence, University of Tehran</h4>
+          <p>English-language course for 50+ students: linear algebra, neural networks, CNNs, reinforcement learning, unsupervised learning, decision trees. Also TA for Dynamics (2022).</p>
+        </li>
+        <li>
+          <p class="when">Summer 2022</p>
+          <h4>Machine Vision Intern, Irankhodro Powertrain Co.</h4>
+          <p>Designed and deployed live object-detection models in a team developing autonomous vehicle features.</p>
+        </li>
+        <li>
+          <p class="when">2022</p>
+          <h4>English Teacher, Parseek English Institute</h4>
+          <p>200+ hours teaching English to children and teenagers.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATES ============ -->
+  <section class="section" id="certificates">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="kicker">03</p>
+        <h2>Certificates &amp; Honours</h2>
+      </header>
+      <ul class="honours">
+        <li><span class="honours__big">Top 0.2%</span><span class="honours__what">Iranian National University Entrance Exam (Konkour), ranked 315th of 144,000</span><span class="honours__when">2018</span></li>
+        <li><span class="honours__big">8.0</span><span class="honours__what">IELTS Academic, overall band score</span><span class="honours__when">2023</span></li>
+        <li><span class="honours__big">Grade 5</span><span class="honours__what">ABRSM Music Theory</span><span class="honours__when">Certificate</span></li>
+        <li><span class="honours__big">95 / 100</span><span class="honours__what">Top undergraduate grades: Statistics &amp; Probability 95, Artificial Intelligence 93.75, Calculus 2 91.25, Engineering Mathematics 90</span><span class="honours__when">2023</span></li>
+        <li><span class="honours__big">DS &amp; ML</span><span class="honours__what">Data Science &amp; Machine Learning course, Dayche Data Solutions Group</span><span class="honours__when">2020</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section section--tint" id="projects">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="kicker">04</p>
+        <h2>Projects</h2>
+        <p class="section__intro">Things I have designed, built and kept running, beyond the three research threads above.</p>
+      </header>
+      <div class="cards cards--3">
+        <article class="card">
+          <img src="assets/img/project-flexilearn.svg" alt="FlexiLearn (placeholder)" width="800" height="500" loading="lazy">
+          <div class="card__body">
+            <p class="tag">Open source · 2026</p>
+            <h3>FlexiLearn</h3>
+            <p>My public training framework. In it I implemented MoRE's Q-learning method, training a 2B Qwen model with LoRA.</p>
+            <p class="links"><a href="https://github.com/DoubleH7" target="_blank" rel="noopener">GitHub ↗</a></p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/img/project-lab-infra.svg" alt="Lab NAS and hardware (placeholder)" width="800" height="500" loading="lazy">
+          <div class="card__body">
+            <p class="tag">Lab infrastructure · GIST</p>
+            <h3>Self-hosted lab platform</h3>
+            <p>I took on our lab's infrastructure: a self-hosted NAS serving about 30 users with storage, messaging, version control and a wiki, plus a free local LLM service on the lab network. I also assemble and manage the lab's hardware across multiple PCs.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/img/project-llm-prod.svg" alt="Production LLM deployment (placeholder)" width="800" height="500" loading="lazy">
+          <div class="card__body">
+            <p class="tag">Industry · RavanErtebat</p>
+            <h3>LLMs in production</h3>
+            <p>Hired as a back-end developer, I took on the deployment and maintenance of resource-intensive transformer and LLM services, along with Kubernetes administration and infrastructure design.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/img/project-prosthesis.svg" alt="Prosthesis joint-angle estimation (placeholder)" width="800" height="500" loading="lazy">
+          <div class="card__body">
+            <p class="tag">CAST · University of Tehran</p>
+            <h3>Joint angles for active prostheses</h3>
+            <p>A lightweight multilayer neural network estimating knee and femur joint angles from mechanical and EMG signals, as the reference input for active transfemoral prosthesis control. I handled sensor logging, data analysis and feature extraction.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/img/project-liver.svg" alt="Fatty liver grading model (placeholder)" width="800" height="500" loading="lazy">
+          <div class="card__body">
+            <p class="tag">Taleghani Hospital collaboration</p>
+            <h3>Fatty liver grading</h3>
+            <p>An ensemble of deep neural networks, gradient-boosted decision trees and statistical models grading fatty liver disease from blood tests, demographic and anthropometric data.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/img/project-alloy.svg" alt="Alloy property regression (placeholder)" width="800" height="500" loading="lazy">
+          <div class="card__body">
+            <p class="tag">University of Tehran · 2022</p>
+            <h3>Alloy property regression</h3>
+            <p>Neural network regressors for the highly non-linear mapping from alloy composition to mechanical properties.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/img/project-vision.svg" alt="Live object detection (placeholder)" width="800" height="500" loading="lazy">
+          <div class="card__body">
+            <p class="tag">Irankhodro Powertrain · 2022</p>
+            <h3>Live object detection</h3>
+            <p>Model architecture and deployment for real-time object detection within an autonomous-vehicle features team.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ME ============ -->
+  <section class="section" id="about">
+    <div class="wrap about">
+      <header class="section__head">
+        <p class="kicker">05</p>
+        <h2>About Me</h2>
+      </header>
+      <div class="about__text">
+        <p class="lede">I am an enthusiastic researcher with more ideas than hours, and I optimise everything I touch, mostly because I enjoy it.</p>
+        <p>When something new catches my interest I dive deep, and I take it apart until every new finding connects to something I already know. I prefer to learn by building: my approach to a challenge is hands-on from the first day.</p>
+        <p>I tend to volunteer for responsibility. As a back-end developer I took on the company's LLM deployments. In the lab I set up and run a self-hosted platform for about 30 people, host a local LLM service on our network, and assemble and look after the lab's computers. I am social and energetic, I work best in a team, and I adapt quickly when plans change.</p>
+      </div>
+
+      <h3 class="subhead">Beyond the lab</h3>
+      <div class="life">
+        <figure>
+          <img src="assets/img/life-music.svg" alt="Music (placeholder)" width="800" height="600" loading="lazy">
+          <figcaption><strong>Voice &amp; piano.</strong> I sing and play the piano, hold ABRSM Grade 5 Music Theory, and have performed at our university with friends.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/life-tennis.svg" alt="Tennis (placeholder)" width="800" height="600" loading="lazy">
+          <figcaption><strong>Tennis.</strong> I play often.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/life-cooking.svg" alt="Cooking (placeholder)" width="800" height="600" loading="lazy">
+          <figcaption><strong>Cooking.</strong> I am a great cook.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/img/life-poetry.svg" alt="Poetry (placeholder)" width="800" height="600" loading="lazy">
+          <figcaption><strong>Poetry.</strong> I take real pleasure in reading it.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INTERESTS & SKILLS ============ -->
+  <section class="section section--tint" id="skills">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="kicker">06</p>
+        <h2>Research Interests &amp; Skills</h2>
+      </header>
+
+      <h3 class="subhead">Research interests</h3>
+      <ul class="chips chips--lg">
+        <li>Vision–language–action models</li>
+        <li>Physical AI</li>
+        <li>Robot learning &amp; imitation learning</li>
+        <li>Teacher–student distillation</li>
+        <li>Reinforcement learning</li>
+        <li>Edge deployment of foundation models</li>
+        <li>Multimodal learning</li>
+        <li>Multi-agent systems &amp; emergent communication</li>
+        <li>Evolutionary AI &amp; artificial life</li>
+        <li>Efficient &amp; low-precision neural computation</li>
+        <li>Learning-based control</li>
+        <li>Human–robot interaction</li>
+      </ul>
+
+      <div class="skillgrid">
+        <div>
+          <h3 class="subhead">Machine learning</h3>
+          <ul class="chips"><li>PyTorch</li><li>TensorFlow</li><li>Transformers &amp; LLMs</li><li>LoRA fine-tuning</li><li>RAG</li><li>Local LLM deployment (Ollama)</li><li>Qiskit</li><li>TensorFlow Quantum</li></ul>
+        </div>
+        <div>
+          <h3 class="subhead">MLOps &amp; infrastructure</h3>
+          <ul class="chips"><li>Kubernetes</li><li>FastAPI</li><li>Qdrant</li><li>MongoDB</li><li>Multi-service integration</li><li>Self-hosted NAS &amp; services</li></ul>
+        </div>
+        <div>
+          <h3 class="subhead">Programming</h3>
+          <ul class="chips"><li>Python</li><li>C++</li><li>Rust</li><li>Go</li><li>C#</li><li>MATLAB</li><li>LaTeX</li></ul>
+        </div>
+        <div>
+          <h3 class="subhead">Engineering</h3>
+          <ul class="chips"><li>Control engineering</li><li>FEM (ABAQUS)</li><li>SolidWorks</li><li>Sensor logging &amp; EMG</li></ul>
+        </div>
+        <div>
+          <h3 class="subhead">How I work</h3>
+          <ul class="chips"><li>Team player</li><li>Fast learner</li><li>Hands-on</li><li>Adaptive</li><li>Resilient</li><li>Social &amp; energetic</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="wrap contact__inner">
+      <h2>Let's talk.</h2>
+      <p>I am looking for PhD positions starting Fall 2027 in VLA models, robot learning and physical AI. The fastest way to reach me is email.</p>
+      <div class="hero__actions">
+        <a class="btn btn--solid btn--light" href="mailto:hesamhaddad@gm.gist.ac.kr">hesamhaddad@gm.gist.ac.kr</a>
+        <a class="btn btn--ghost-light" href="files/Hesam_Haddad_CV.pdf" download>Download CV</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p>© <span id="year">2026</span> Hesam Haddad · Gwangju, South Korea</p>
+    <p><a href="#home">Back to top ↑</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
