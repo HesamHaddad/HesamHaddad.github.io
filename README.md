@@ -1,6 +1,6 @@
-# DoubleH7.github.io
+# HesamHaddad.github.io
 
-Personal academic site of Hesam Haddad, served by GitHub Pages at https://doubleh7.github.io/.
+Personal academic site of Hesam Haddad, served by GitHub Pages at https://hesamhaddad.github.io/.
 
 Plain HTML/CSS/JS, no build step. Edit `index.html`; styles in `assets/css/style.css`.
 
