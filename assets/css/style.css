@@ -292,3 +292,15 @@ p { margin: 0 0 1em; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+/* ---------- Additions: compact project cards, real photos ---------- */
+.cards + .cards { margin-top: 24px; }
+.cards--4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.card--text .card__body { padding: 22px; }
+.card--text h3 { font-size: 18px; }
+.card--text .card__body p:not(.tag) { font-size: 15px; margin-bottom: 0; }
+.card--text { border-top: 3px solid var(--accent); }
+.paper img { aspect-ratio: 5 / 4; }
+.hero__photo img { object-position: 60% 30%; }
+@media (max-width: 1020px) { .cards--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .cards--4 { grid-template-columns: 1fr; } }
