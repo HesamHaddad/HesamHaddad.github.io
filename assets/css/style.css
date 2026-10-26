@@ -313,3 +313,5 @@ p { margin: 0 0 1em; }
 .card__imglink { display: block; border-bottom: 1px solid var(--line); }
 .card__imglink img { display: block; width: 100%; aspect-ratio: 1694 / 918; object-fit: cover; }
 .paper--noimg { grid-template-columns: 1fr; }
+.paper > a { display: block; align-self: start; }
+.paper > a img { width: 100%; }

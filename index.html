@@ -155,7 +155,8 @@
 
       <h3 class="subhead">Publications</h3>
       <div class="papers">
-        <article class="paper paper--noimg">
+        <article class="paper">
+          <a href="assets/img/paper-icros.jpg" target="_blank" rel="noopener" title="Open full size"><img src="assets/img/paper-icros.jpg" alt="System diagram, all on local hardware in a closed network. Ingestion: PDF to Markdown, chunking by heading hierarchy, parent headings added as prefix, embeddings; each stage versioned; sections stored in Qdrant (dense vectors) and MongoDB (full-text index). Query time: the question goes to Qdrant via an Ollama embedding and to MongoDB as full-text search; both ranked lists merge in RRF fusion, then top-k sections, a prompt builder, MedGemma 1.5 4B as the local LLM, and a streamed answer via FastAPI." width="1402" height="1122" loading="lazy"></a>
           <div>
             <p class="tag">Peer-reviewed · July 2026</p>
             <h4>A Privacy-Preserving Local RAG System for Rehabilitation Knowledge Assistance</h4>
