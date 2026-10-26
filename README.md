@@ -4,7 +4,9 @@ Personal academic site of Hesam Haddad, served by GitHub Pages at https://hesamh
 
 Plain HTML/CSS/JS, no build step. Edit `index.html`; styles in `assets/css/style.css`.
 
-## Replacing placeholders
-Every image in `assets/img/` is a labelled SVG placeholder. Drop in a real photo under any name and update the matching `src` in `index.html` (sizes noted on each placeholder: portraits 600×600, cards 800×500, "Beyond the lab" 800×600).
+## Images
+Images shown on the page live in `assets/img/` under the names `index.html` references (e.g. `portrait.jpg`, `research-vla.jpg`, `life-tennis.jpg`). They are web-sized copies with metadata stripped; keep it that way for anything new (phone photos can carry GPS location).
+
+Card images display at 16:10, "Beyond the lab" at 4:3, the portrait square.
 
 The CV linked from the header and buttons is `files/Hesam_Haddad_CV.pdf`; replace that file to update it.
