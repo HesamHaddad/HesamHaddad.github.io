@@ -304,3 +304,11 @@ p { margin: 0 0 1em; }
 .hero__photo img { object-position: 60% 30%; }
 @media (max-width: 1020px) { .cards--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 640px) { .cards--4 { grid-template-columns: 1fr; } }
+.feature--stacked { grid-template-columns: 1fr; }
+.feature--stacked .feature__figure { display: block; background: #f1efe9; border-bottom: 1px solid var(--line); }
+.feature--stacked .feature__img { height: auto; aspect-ratio: auto; object-fit: contain; border: 0; padding: 8px 12px; }
+.feature--stacked .feature__body { max-width: 820px; }
+.cards--wide .card > img { aspect-ratio: 1694 / 918; }
+@media (max-width: 900px) { .feature--stacked .feature__img { aspect-ratio: auto; } }
+.card__imglink { display: block; border-bottom: 1px solid var(--line); }
+.card__imglink img { display: block; width: 100%; aspect-ratio: 1694 / 918; object-fit: cover; }
