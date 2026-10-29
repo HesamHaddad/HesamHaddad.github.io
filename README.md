@@ -9,4 +9,4 @@ Images shown on the page live in `assets/img/` under the names `index.html` refe
 
 Card images display at 16:10, "Beyond the lab" at 4:3, the portrait square.
 
-The CV linked from the header and buttons is `files/Hesam_Haddad_CV.pdf`; replace that file to update it.
+The CV linked from the header and buttons is `files/CV_Oct_2026.pdf`; replace that file to update it.
